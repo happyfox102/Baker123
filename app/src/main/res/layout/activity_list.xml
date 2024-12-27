@@ -13,12 +13,12 @@
 
     <Button
         android:id="@+id/button_cart"
-        android:layout_width="wrap_content"
+        android:layout_width="2000dp"
         android:layout_height="wrap_content"
-        android:text="Корзина"
+        android:text="В корзину"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/recycler_view"
-        app:layout_constraintVertical_bias="0.921" />
+        app:layout_constraintVertical_bias="1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,7 +17,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-    private const val BASE_URL = "http://192.168.31.145:5000" // Замените на ваш URL
+    private const val BASE_URL = "http://192.168.31.144:5000" // Замените на ваш URL
 
     val apiService: Repository.ApiService by lazy {
         Retrofit.Builder()

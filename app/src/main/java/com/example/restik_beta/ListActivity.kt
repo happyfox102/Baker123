@@ -51,7 +51,7 @@ object Cart : Serializable {
 }
 
 object RetrofitInstance {
-    private const val BASE_URL = "http://192.168.31.145:5000"
+    private const val BASE_URL = "http://192.168.31.144:5000"
 
     val api: Repository.ApiService by lazy {
         Retrofit.Builder()
